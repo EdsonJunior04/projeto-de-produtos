@@ -1,12 +1,14 @@
 ﻿using System;
+using ProjetoProduto.Classes;
 
-namespace projeto_de_produtos
+namespace ProjetoProduto
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Login login = new Login();
+            Console.Clear();
         }
     }
 }
